@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Hace que la página se adapte correctamente a celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>La Cocina - Carta Digital</title>
+
+     <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         ENCABEZADO
+    ========================== -->
+    <header class="header" >
+
+
+
+
+        <div class="logo">
+            🍽️ La Cocina
+        </div>
+
+        <nav>
+            #inicioInicio</a>
+            #menuMenú</a>
+            #contactoContacto</a>
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         PORTADA
+    ========================== -->
+    <section class="hero" id="inicio">
+
+
+
+        <div class="hero-contenido">
+
+            <p class="etiqueta">BIENVENIDO</p>
+
+            <h1>Comida deliciosa,<br>directo a tu mesa.</h1>
+
+            <p>
+                Explora nuestra carta digital y descubre
+                nuestros platillos favoritos.
+            </p>
+
+          
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         MENÚ
+    ========================== -->
+    <main id="menu">
+
+        <section class="menu">
+
+            <div class="titulo-seccion">
+
+                <p class="etiqueta">NUESTRA CARTA</p>
+
+                <h2>¿Qué quieres comer hoy?</h2>
+
+                <p>
+                    Selecciona una categoría o busca tu platillo favorito.
+                </p>
+
+            </div>
+
+
+            <!-- BUSCADOR -->
+           
+            <!-- CATEGORÍAS -->
+          <div class="categorias">
+<button class="categoria activa" data-categoria="todos">
+Todos
+</button>
+<button class="categoria" data-categoria="comida">
+🍽️ Comida
+</button>
+<button class="categoria" data-categoria="bebidas">
+🥤 Bebidas
+</button>
+</div>
+
+
+            <!-- =========================
+                 PRODUCTOS
+            ========================== -->
+
+            <div class="productos" id="productos">
+
+
+                <!-- PRODUCTO 1 -->
+                <article class="producto"
+                    data-categoria="comida"
+                    data-nombre="Hamburguesa Especial">
+
+                    <div class="imagen-producto">
+                        
+<img src="img/ham.jpg" alt="Hamburguesa Especial">
+                        <span class="destacado">
+                            Más vendido
+                        </span>
+                    </div>
+
+                    <div class="producto-info">
+
+                        <h3>Hamburguesa Especial</h3>
+
+                        <p>
+                            Carne de res, queso cheddar,
+                            tocino, lechuga, tomate y nuestra
+                            salsa especial.
+                        </p>
+
+                        <div class="producto-footer">
+
+                            <span class="precio">
+                                $125
+                            </span>
+
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 2 -->
+                <article class="producto"
+                    data-categoria="comida"
+                    data-nombre="Pizza Pepperoni">
+
+                    <div class="imagen-producto">
+
+                 <img src="img/pizza.jpg">
+
+
+                    </div>
+
+                    <div class="producto-info">
+
+                        <h3>Pizza Pepperoni</h3>
+
+                        <p>
+                            Salsa de tomate, queso mozzarella,
+                            pepperoni y especias de la casa.
+                        </p>
+
+                        <div class="producto-footer">
+
+                            <span class="precio">
+                                $180
+                            </span>
+
+                    
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 3 -->
+                <article class="producto"
+                    data-categoria="comida"
+                    data-nombre="Tacos de Carne">
+
+                    <div class="imagen-producto">
+
+                        <img src="img/tacos.jpg" alt="Tacos de Carne">
+
+                    </div>
+
+                    <div class="producto-info">
+
+                        <h3>Tacos de Carne</h3>
+
+                        <p>
+                            Tres tacos de carne con cebolla,
+                            cilantro, limón y salsa.
+                        </p>
+
+                        <div class="producto-footer">
+
+                            <span class="precio">
+                                $95
+                            </span>
+
+                     
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCTO 4 -->
+                <article class="producto"
+                    data-categoria="bebidas"
+                    data-nombre="Limonada Natural">
+
+                    <div class="imagen-producto">
+
+                        <img src="img/lim.jpg" alt="Limonada Natural">
+
+                    </div>
+
+                    <div class="producto-info">
+
+                        <h3>Limonada Natural</h3>
+
+                        <p>
+                            Limonada preparada al momento
+                            con limón natural y hielo.
+                        </p>
+
+                        <div class="producto-footer">
+
+                            <span class="precio">
+                                $45
+                            </span>
+
+
+
+                  
+
+                            
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="producto"
+                    data-categoria="bebidas"
+                    data-nombre="Naranjada Natural">
+
+                    <div class="imagen-producto">
+
+                        <img src="img/nar.jpg" alt="Naranjada Natural">
+
+                    </div>
+
+                    <div class="producto-info">
+
+                        <h3>Naranjada Natural</h3>
+
+                        <p>
+                            Naranjada preparada al momento
+                            con naranja natural y hielo.
+                        </p>
+
+                        <div class="producto-footer">
+
+                            <span class="precio">
+                                $45
+                            </span>
+
+                            </div>
+                        </article>
+
+
+                <!-- PRODUCTO 5 -->
+              
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         CARRITO
+    ========================== -->
+
+
+
+    <!-- Fondo oscuro carrito -->
+    <div id="overlay" class="overlay"></div>
+
+
+    <!-- =========================
+         INFORMACIÓN
+    ========================== -->
+
+    <section class="informacion" id="contacto">
+
+        <div>
+
+            <p class="etiqueta">
+                VISÍTANOS
+            </p>
+
+            <h2>La Cocina</h2>
+
+            <p>
+                📍 Calle Principal #123
+            </p>
+
+            <p>
+                📞 (000) 000-0000
+            </p>
+
+            <p>
+                🕐 Lunes a domingo<br>
+                12:00 PM - 10:00 PM
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <p class="etiqueta">
+                SÍGUENOS
+            </p>
+
+            <p>
+                Instagram: @lacocina
+            </p>
+
+            <p>
+                Facebook: La Cocina
+            </p>
+
+            <p>
+                WhatsApp: (000) 000-0000
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <p>
+            © 2026 La Cocina
+        </p>
+
+        <p>
+            Carta digital
+        </p>
+
+    </footer>
+
+
+    <script src="menu.js"></script>
+
+</body>
+</html>
